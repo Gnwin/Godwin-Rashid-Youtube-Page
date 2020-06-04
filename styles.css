@@ -20,7 +20,7 @@ header {
 
 
 .search {
-    /* display: flex; */
+    display: flex;
     border: 1px solid grey;
     width: 50%;
 }
@@ -31,6 +31,10 @@ header {
     height: 35px;
 }
 
+.search input[placeholder="Search"]{
+    font-size: 18px;
+}
+
 .search button {
     width: 10%;
     border: none;
@@ -39,7 +43,6 @@ header {
 
 .fa-upload {
    color: #808080;
-   font-size: ;
 }
 
 .sign-in {
