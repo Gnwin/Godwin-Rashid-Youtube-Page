@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.search {
+    height: 35px;
+    border: 1px solid grey;
+    width: 50%;
+}
+
+.search input[type=text] {
+    border: none;
+    width: 90%;
+}
+
+.search button{
+    width: 10%;
+    border: none;
+}
+
+button{
+    height: 35px;
+    padding: 0 5px;
+}
