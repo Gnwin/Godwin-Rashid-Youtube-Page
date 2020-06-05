@@ -11,23 +11,48 @@ header img{
     width: 100px;
 }
 
+header nav ul{
+    list-style: none;
+}
+
+
+.firstnav, .secondnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstnav i {
+    padding-right: 7%;
+}
+
+.firstnav img{
+    padding-left: 7%;
+}
+
+.secondnav i {
+    padding-right: 80%;
+}
+
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 60px;
+    padding: 0 3%;
 }
 
 
 .search {
     display: flex;
     border: 1px solid grey;
-    width: 50%;
+    width: 75%;
 }
 
 .search input {
     border: none;
-    width: 90%;
+    width: 93%;
     height: 35px;
 }
 
@@ -36,7 +61,7 @@ header {
 }
 
 .search button {
-    width: 10%;
+    width: 7%;
     border: none;
     height: 35px;
 }
@@ -47,8 +72,7 @@ header {
 
 .sign-in {
     height: 35px;
-    width: 4%;
-    padding: 0 5px;
+    padding: 0 12px;
     background-color:#167AC6;
     border: none;
     color: white;
