@@ -3,12 +3,21 @@
     padding: 0;
 }
 
+body{
+    background-color: #F1F1F1;
+}
+
+html{
+    font-size: 14px;
+}
+
 .fa-bars {
     color: #B4B4B4;
 }
 
 header img{
-    width: 100px;
+    width: 107px;
+    /* height: 58px; */
 }
 
 header nav ul{
@@ -23,11 +32,11 @@ header nav ul{
 }
 
 .firstnav i {
-    padding-right: 7%;
+    padding-right: 5%;
 }
 
 .firstnav img{
-    padding-left: 7%;
+    padding-left: 5%;
 }
 
 .secondnav i {
@@ -37,6 +46,7 @@ header nav ul{
 
 header {
     display: flex;
+    background-color: #fff;
     justify-content: space-between;
     align-items: center;
     height: 60px;
@@ -68,6 +78,7 @@ header {
 
 .fa-upload {
    color: #808080;
+   cursor: pointer;
 }
 
 .sign-in {
@@ -78,3 +89,126 @@ header {
     color: white;
     border-radius: 4px;
 }
+
+.msg {
+    background-color: #167AC6;
+    color: white;
+    margin-top: 12px;
+    padding: 12px;
+    border: 2px solid  #167AC6;
+}
+
+.msg i{
+    padding-right: 12px;
+}
+
+.msg .fa-times {
+    float: right;
+}
+
+.lang-pref{
+    padding: 12px;
+    background-color: #fff;
+    border: 2px solid  #167AC6;
+}
+
+.learn{
+    float: right;
+    font-size: 0.8rem;
+}
+
+
+.vidcontent{
+    display: flex;
+    margin-top: 20px;
+}
+
+.vidcontent .vid-des {
+    margin-right: 0.5%;
+    
+}
+
+.vidcontent .more-vid{
+    margin-left: 0.5%;
+}
+.vid-des{
+    width: 70%;
+}
+
+.more-vid{
+    width: 30%;
+}
+
+.vid-des video{
+   display: flex;
+   flex-direction: column; 
+}
+
+
+.more-vid{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.vid{
+    width: 60%;
+}
+
+.vid a img{
+    /* width: 261.31px; 
+    height: 146.98px; */
+    width: 100%;
+}
+
+.vid-info{
+    width: 40%;
+}
+
+.suggest-vid{
+    display: flex;
+    height: 50%;
+}
+
+.suggest-vid div{
+    margin: 10px;
+}
+
+hr{
+    margin: 0 3%;
+}
+
+.more{
+    margin: 10px;
+}
+
+.more-vid .more .upnext{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #222222;
+} 
+
+.vid-info .title{
+    font-size: 1rem;
+    color: #353535;
+    font-style: 1rem;
+}
+
+.vid-info .channel, .vid-info .views{
+    color: #808080;
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
