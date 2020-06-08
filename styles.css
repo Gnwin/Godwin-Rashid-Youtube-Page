@@ -195,6 +195,7 @@ footer {
     background-color: white;
     bottom: 0;
     overflow: hidden;
+    padding: 30px;
 }
 
 .settings{
@@ -214,6 +215,11 @@ footer {
 .settings img {
     width: 107px;
 }
+
+.settings div {
+    padding-right: 1%;
+}
+
 
 
 
