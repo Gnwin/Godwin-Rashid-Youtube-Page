@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+
+html{
+    font-size: 14px;
+}
+
+.fa-bars {
+    color: #B4B4B4;
+}
+
+header img{
+    width: 107px;
+    /* height: 58px; */
+}
+
+header nav ul{
+    list-style: none;
+}
+
+
+.firstnav, .secondnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstnav i {
+    padding-right: 5%;
+}
+
+.firstnav img{
+    padding-left: 5%;
+}
+
+.secondnav i {
+    padding-right: 80%;
+}
+
+
+header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 3%;
+}
+
+
+.search {
+    display: flex;
+    border: 1px solid grey;
+    width: 75%;
+}
+
+.search input {
+    border: none;
+    width: 93%;
+    height: 35px;
+}
+
+.search input[placeholder="Search"]{
+    font-size: 18px;
+}
+
+.search button {
+    width: 7%;
+    border: none;
+    height: 35px;
+}
+
+.fa-upload {
+   color: #808080;
+   cursor: pointer;
+}
+
+.sign-in {
+    height: 35px;
+    padding: 0 12px;
+    background-color:#167AC6;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.msg {
+    background-color: #167AC6;
+    color: white;
+    margin-top: 12px;
+    padding: 12px;
+    border: 2px solid  #167AC6;
+}
+
+.msg i{
+    padding-right: 12px;
+}
+
+.msg .fa-times {
+    float: right;
+}
+
+.lang-pref{
+    padding: 12px;
+    background-color: #fff;
+    border: 2px solid  #167AC6;
+}
+
+.learn{
+    float: right;
+    font-size: 0.8rem;
+}
+
+
+.vidcontent{
+    display: flex;
+    margin-top: 20px;
+}
+
+.vidcontent .vid-des {
+    margin-right: 0.5%;
+    
+}
+
+.vidcontent .more-vid{
+    margin-left: 0.5%;
+}
+.vid-des{
+    width: 70%;
+}
+
+.more-vid{
+    width: 30%;
+}
+
+.vid-des video{
+   display: flex;
+   flex-direction: column; 
+}
+
+
+.more-vid{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.vid{
+    width: 60%;
+}
+
+.vid a img{
+    /* width: 261.31px; 
+    height: 146.98px; */
+    width: 100%;
+}
+
+.vid-info{
+    width: 40%;
+}
+
+.suggest-vid{
+    display: flex;
+    height: 50%;
+}
+
+.suggest-vid div{
+    margin: 10px;
+}
+
+hr{
+    margin: 0 3%;
+}
+
+.more{
+    margin: 10px;
+}
+
+.more-vid .more .upnext{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #222222;
+} 
+
+.vid-info .title{
+    font-size: 1rem;
+    color: #353535;
+    font-style: 1rem;
+}
+
+.vid-info .channel, .vid-info .views{
+    color: #808080;
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
