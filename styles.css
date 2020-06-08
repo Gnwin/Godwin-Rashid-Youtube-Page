@@ -5,6 +5,7 @@
 
 body{
     background-color: #F1F1F1;
+    position: relative;
 }
 
 html{
@@ -186,12 +187,33 @@ hr{
     margin-bottom: 0;
 }
 
+footer {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    bottom: 0;
+    overflow: hidden;
+}
 
+.settings{
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+}
 
+.settings{
+    justify-content: start;
+    align-items: center;
+}
 
-
-
-
+.settings img {
+    width: 107px;
+}
 
 
 
