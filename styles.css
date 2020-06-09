@@ -5,7 +5,6 @@
 
 body{
     background-color: #F1F1F1;
-    position: relative;
 }
 
 html{
@@ -47,6 +46,10 @@ header {
 
 header img{
     width: 107px;
+}
+
+main {
+    margin-bottom: 200px;
 }
 
 .search {
@@ -134,8 +137,6 @@ header img{
 
 
 .more-vid{
-    /* display: flex;
-    flex-direction: column; */
     background-color: #fff;
 }
 
@@ -162,8 +163,8 @@ header img{
     margin: 10px;
 }
 
-hr{
-    margin: 0 3%;
+.hr-sug{
+    /* margin: 0 3%; */
 }
 
 .more{
@@ -189,38 +190,79 @@ hr{
 
 footer {
     display: flex;
-    width: 100%;
-    position: absolute;
     flex-direction: column;
     background-color: white;
-    bottom: 0;
     overflow: hidden;
-    padding: 30px;
+    padding: 40px 35px 50px 45px;
+    margin-bottom: 200px;
+    border-top: 1px solid #E2E2E2;
 }
 
 .settings{
     display: flex;
-    flex-direction: row;
-}
-.about{
-    display: flex;
-    flex-direction: row;
-}
-
-.settings{
-    justify-content: start;
+    flex-wrap: wrap;
     align-items: center;
+}
+.about a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    margin-right: 4%;
+}
+
+.about a:hover{
+   text-decoration: underline;
 }
 
 .settings img {
     width: 107px;
+    padding-right: 20px;
 }
 
 .settings div {
-    padding-right: 1%;
+    display: flex;
+    border: 1px solid #E2E2E2;
+    margin-right: 2%;
+    background-color: #F8F8F8;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.settings div label {
+    margin: 0;
 }
 
+.settings select {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 5px;
+}
 
+.settings div button {
+    border: none;
+    background-color: transparent;
+}
+
+.settings div .fa-user{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.terms {
+    margin-top: 10px;
+}
+
+.terms a {
+    color: #6f6f6f;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 4%;
+    font-weight: bold;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
 
 
 
