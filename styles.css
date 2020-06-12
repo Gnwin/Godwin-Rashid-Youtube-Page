@@ -17,7 +17,6 @@ header {
     background-color: #fff;
     justify-content: space-between;
     align-items: center;
-    /* height: 60px; */
     overflow: hidden;
     padding: 0 3%;
 }
@@ -48,7 +47,7 @@ header img{
     width: 107px;
 }
 
-main {
+main{
     margin-bottom: 200px;
 }
 
@@ -93,7 +92,6 @@ main {
     color: white;
     margin-top: 12px;
     padding: 12px;
-    border: 2px solid  #167AC6;
 }
 
 .msg i{
@@ -104,7 +102,7 @@ main {
     float: right;
 }
 
-.lang-pref{
+.lang-pref {
     padding: 12px;
     background-color: #fff;
     border: 2px solid  #167AC6;
@@ -135,9 +133,142 @@ main {
     width: 30%;
 }
 
+.video-summary{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.vs1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vs1 .v{
+    display: flex;
+}
+
+.vs2{
+    display: flex;
+    flex-direction: column;
+}
+
+.vs1 .avatar{
+    font-size: 3em;
+    text-align: center;
+    background-color: #689F39;
+    color: white;
+    font-weight: bold;
+    padding: 2px 20px;
+    margin-right: 15px;
+}
+
+.vs2 .title{
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.subscribe{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.subscribe button{
+    padding: 3px 10px;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    border-right: 1px solid #CCCCCC;
+    color: white;
+    background-color: #FF0000;
+}
+
+.subscribe .fa {
+    padding-top: 3px;
+}
+
+.subscribe .num{
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: #959595;
+}
+
+.views {
+    font-size: 20px;
+    color: #818282;
+    /* float: right; */
+}
+
+.share{
+    padding: 7px;
+    color: #7F7F7F;
+}
+
+.sh i{
+    padding-right: 1%;
+}
+
+.sh {
+    padding-right: 2%;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.like, .dislike {
+    float: right;
+    padding-left: 2%;
+    cursor: pointer;
+    text-decoration: none;
+    color:  #7F7F7F;
+    padding-top: 2px;
+}
+
+
+.publish{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.load{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 80px;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 54.181%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+} 
+
 
 .more-vid{
     background-color: #fff;
+}
+
+.more-vid hr{
+    margin: 10px;
 }
 
 .vid{
@@ -145,8 +276,6 @@ main {
 }
 
 .vid a img{
-    /* width: 261.31px; 
-    height: 146.98px; */
     width: 100%;
 }
 
@@ -162,7 +291,6 @@ main {
 .suggest-vid div{
     margin: 10px;
 }
-
 
 .more{
     margin: 10px;
@@ -185,6 +313,12 @@ main {
     margin-bottom: 0;
 }
 
+.show{
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -200,6 +334,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .about a {
     text-decoration: none;
     color: #333333;
@@ -208,8 +343,9 @@ footer {
 }
 
 .about a:hover{
-   text-decoration: underline;
+    text-decoration: underline;
 }
+
 
 .settings img {
     width: 107px;
@@ -224,11 +360,12 @@ footer {
     padding: 10px 25px;
     cursor: pointer;
 }
+
 .settings div label {
     margin: 0;
 }
 
-.settings select {
+.settings select{
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -245,23 +382,19 @@ footer {
     padding-top: 5px;
 }
 
-.terms {
+.terms{
     margin-top: 10px;
 }
 
 .terms a {
-    color: #6f6f6f;
-    font-size: 12px;
-    text-decoration: none;
-    margin-right: 4%;
-    font-weight: bold;
+   color: #6F6F6F;
+   font-size: 12px;
+   text-decoration: none;
+   margin-right: 4%;
+   font-weight: bold;
 }
 
-.terms a:hover {
+.terms a:hover{
     text-decoration: underline;
 }
-
-
-
-
 
