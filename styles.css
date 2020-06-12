@@ -54,7 +54,7 @@ main{
 .search {
     display: flex;
     border: 1px solid grey;
-    width: 75%;
+    width: 70%;
 }
 
 .search input {
